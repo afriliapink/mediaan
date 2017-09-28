@@ -1,0 +1,56 @@
+body {
+font-family:'PT Sans', sans-serif;
+font-size: 105%;
+background: #fff;
+color: #414141;
+text-align:center;
+width:100%;
+line-height:150%;
+min-width: 960px;
+}
+
+.banner-wrapper {
+  padding: 180px 0 155px;
+  margin-bottom: 150px;
+}
+
+#thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.desc-wrapper {
+z-index: 100;
+position: relative;
+padding: 32px;
+text-align: center;
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.6);
+  z-index: 99;
+  height: 645px;
+}
+
+#par-banner {
+color: #fff;
+font-size: 2.5em;
+margin-top: 1em;
+margin-bottom:1em;
+}
+
+#p-banner {
+color: #fff;
+font-size: 1em;
+font-style: italic;
+font-family: proxima-nova;
+letter-spacing: 0.1em;
+}

@@ -1,0 +1,312 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+
+
+body {
+font-family:'PT Sans', sans-serif;
+font-size: 105%;
+background: #fff;
+color: #414141;
+text-align:center;
+width:100%;
+line-height:150%;
+}
+
+#icon_home{
+	margin-left:20px;
+	margin-top: 3px;
+	float:left;
+}
+
+nav {
+  background: transparent;
+  position:absolute;
+  right:0;
+  margin-right:15px;
+  z-index:100;
+}
+
+nav ul {
+  padding-top: 20px;
+}
+
+nav li {
+  display: inline;
+  padding: 15px;
+}
+
+nav a {
+font-family: "Helvetica Neue";
+font-size: 10px;
+text-transform: uppercase;
+text-decoration: none;
+letter-spacing: 1px;
+color: #E0DFE1;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+}
+
+.banner-wrapper {
+	padding: 180px 0 155px;
+	margin-bottom: 150px;
+}
+
+#thumbnail {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.desc-wrapper {
+z-index: 100;
+position: relative;
+padding: 32px;
+text-align: center;
+}
+
+.color-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0,0,0,.6);
+	z-index: 99;
+	height: 645px;
+}
+
+#par-banner {
+color: #fff;
+font-size: 2.5em;
+margin-top: 1em;
+margin-bottom:1em;
+}
+
+#p-banner {
+color: #fff;
+font-size: 1em;
+font-style: italic;
+font-family: proxima-nova;
+letter-spacing: 0.1em;
+}
+
+h1 {
+	font-size:1.8em;
+	margin-top:2em;
+	margin-bottom:1em;
+	line-height:1.3em;
+}
+
+.grid_12_p_about_me {
+	font-size: 1em;
+	font-style: italic;
+	font-family: proxima-nova;
+}
+
+.button_homepage {
+	border-width: 1.5px;
+	border-style: solid;
+	padding: 13px 26px;
+	color: #272727;
+	border-color: #272727;
+	font-size: 12px;
+	font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.button_homepage:hover {
+	color: white;
+	background-color: #272727;
+}
+
+.text_decoration {
+text-decoration:none;
+}
+
+footer {
+  background: #333333;
+  padding: 20px 0;
+  height:130px;
+  margin-top:4em;
+}
+
+footer li {
+  display: inline;
+  padding: 5px;
+}
+
+footer ul {
+  padding-top:15px;
+}
+
+.end_footer {
+	color:#e1e3e7;
+	font-size:0.5em;
+	padding-top:60px;
+}
+
+.p_top {
+margin-bottom: 20px;
+}
+
+.LAL-app {
+	float:right;
+	margin-right:10px;
+}
+
+.LAL-blog {
+	margin-left:10px;
+}
+
+.link-LAL {
+	text-decoration: none;
+	color:white;
+	font-family: proxima-nova;
+}
+
+.img-LAL {
+	width: 290px;
+	height: 290px;
+}
+
+.img-LAL-app {
+	background: url(images/Bo-Yoga-Nice.jpg);
+}
+
+.img-LAL-blog {
+	background: url(images/Chef-Jean-Yves-Duperret.jpg);
+}
+
+.title-LAL {
+	font-size: 24px;
+	margin-top: 120px;
+}
+
+.color-overlay-LAL {
+	background-color: rgba(0,0,0,.6);
+	z-index: 99;
+	width: 290px;
+	height: 290px;
+	overflow: hidden;
+}
+
+.about_bottom {
+	font-size:1.5em;
+	text-align:center;
+	margin-top:3em;
+}
+
+.experience {
+border-top: 1px solid #CCC;
+padding-top:3em;
+}
+
+.title_page_experiences {
+font-size: 20px;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 600;
+}
+
+.job_title {
+font-size: 16px;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 600;
+}
+
+.company {
+font-size: 18px;
+font-weight: 800;
+color: rgba(26,26,26,.6);
+margin-top: -2.5em
+}
+
+.p_experience {
+font-size: 17px;
+color: rgba(26,26,26,.9);
+margin-top: -4.5em;
+}
+
+.p_portfolio {
+font-size: 17px;
+color: rgba(26,26,26,.9);
+}
+
+.margin_top_experiences {
+margin-top:-1em;
+}
+
+.cb {
+	clear:both;
+}
+
+.ta_left {
+	text-align:left;
+}
+
+
+.bottom_border {
+	border-top: 1px solid #CCC;
+	padding-top:3em;
+}
+
+.links {
+	color:#009bff;
+	text-decoration:none;
+}
+
+
